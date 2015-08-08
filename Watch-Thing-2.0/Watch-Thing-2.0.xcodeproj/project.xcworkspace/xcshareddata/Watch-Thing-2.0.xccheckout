@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>53CB223F-6C48-40D4-9BC4-11CA217693DA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9559E8A99AA56E03C4F67BB28748D4C2777309D9</key>
+		<string>https://github.com/iCurlmyster/Test_WatchApp</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Watch-Thing-2.0/Watch-Thing-2.0.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9559E8A99AA56E03C4F67BB28748D4C2777309D9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/iCurlmyster/Test_WatchApp</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9559E8A99AA56E03C4F67BB28748D4C2777309D9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9559E8A99AA56E03C4F67BB28748D4C2777309D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Test_WatchApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
