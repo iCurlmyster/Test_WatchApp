@@ -14,6 +14,14 @@
 		F61215AB1B75A5CD00ED62B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61215AA1B75A5CD00ED62B3 /* Images.xcassets */; };
 		F61215AE1B75A5CD00ED62B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F61215AC1B75A5CD00ED62B3 /* LaunchScreen.xib */; };
 		F61215BA1B75A5CD00ED62B3 /* Watch_Thing_2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F61215B91B75A5CD00ED62B3 /* Watch_Thing_2_0Tests.m */; };
+		F61215CE1B75A7D200ED62B3 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F61215CD1B75A7D200ED62B3 /* InterfaceController.m */; };
+		F61215D11B75A7D200ED62B3 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F61215D01B75A7D200ED62B3 /* NotificationController.m */; };
+		F61215D41B75A7D200ED62B3 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F61215D31B75A7D200ED62B3 /* GlanceController.m */; };
+		F61215D61B75A7D200ED62B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61215D51B75A7D200ED62B3 /* Images.xcassets */; };
+		F61215DA1B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = F61215D91B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App.app */; };
+		F61215E21B75A7D200ED62B3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61215E01B75A7D200ED62B3 /* Interface.storyboard */; };
+		F61215E41B75A7D200ED62B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61215E31B75A7D200ED62B3 /* Images.xcassets */; };
+		F61215E71B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F61215C71B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +32,35 @@
 			remoteGlobalIDString = F61215991B75A5CC00ED62B3;
 			remoteInfo = "Watch-Thing-2.0";
 		};
+		F61215DB1B75A7D200ED62B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F61215921B75A5CC00ED62B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61215D81B75A7D200ED62B3;
+			remoteInfo = "Watch-Thing-2.0 WatchKit App";
+		};
+		F61215E51B75A7D200ED62B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F61215921B75A5CC00ED62B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61215C61B75A7D200ED62B3;
+			remoteInfo = "Watch-Thing-2.0 WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F61215EE1B75A7D200ED62B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F61215E71B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F612159A1B75A5CC00ED62B3 /* Watch-Thing-2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch-Thing-2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +76,20 @@
 		F61215B31B75A5CD00ED62B3 /* Watch-Thing-2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watch-Thing-2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61215B81B75A5CD00ED62B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F61215B91B75A5CD00ED62B3 /* Watch_Thing_2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Watch_Thing_2_0Tests.m; sourceTree = "<group>"; };
+		F61215C71B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch-Thing-2.0 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61215CA1B75A7D200ED62B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61215CB1B75A7D200ED62B3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F61215CC1B75A7D200ED62B3 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		F61215CD1B75A7D200ED62B3 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		F61215CF1B75A7D200ED62B3 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		F61215D01B75A7D200ED62B3 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		F61215D21B75A7D200ED62B3 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		F61215D31B75A7D200ED62B3 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		F61215D51B75A7D200ED62B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F61215D91B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch-Thing-2.0 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61215DF1B75A7D200ED62B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61215E11B75A7D200ED62B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F61215E31B75A7D200ED62B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +107,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F61215C41B75A7D200ED62B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +122,8 @@
 			children = (
 				F612159C1B75A5CC00ED62B3 /* Watch-Thing-2.0 */,
 				F61215B61B75A5CD00ED62B3 /* Watch-Thing-2.0Tests */,
+				F61215C81B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension */,
+				F61215DD1B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App */,
 				F612159B1B75A5CC00ED62B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +133,8 @@
 			children = (
 				F612159A1B75A5CC00ED62B3 /* Watch-Thing-2.0.app */,
 				F61215B31B75A5CD00ED62B3 /* Watch-Thing-2.0Tests.xctest */,
+				F61215C71B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension.appex */,
+				F61215D91B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +180,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F61215C81B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F61215CC1B75A7D200ED62B3 /* InterfaceController.h */,
+				F61215CD1B75A7D200ED62B3 /* InterfaceController.m */,
+				F61215CF1B75A7D200ED62B3 /* NotificationController.h */,
+				F61215D01B75A7D200ED62B3 /* NotificationController.m */,
+				F61215D21B75A7D200ED62B3 /* GlanceController.h */,
+				F61215D31B75A7D200ED62B3 /* GlanceController.m */,
+				F61215D51B75A7D200ED62B3 /* Images.xcassets */,
+				F61215C91B75A7D200ED62B3 /* Supporting Files */,
+			);
+			path = "Watch-Thing-2.0 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F61215C91B75A7D200ED62B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F61215CA1B75A7D200ED62B3 /* Info.plist */,
+				F61215CB1B75A7D200ED62B3 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F61215DD1B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F61215E01B75A7D200ED62B3 /* Interface.storyboard */,
+				F61215E31B75A7D200ED62B3 /* Images.xcassets */,
+				F61215DE1B75A7D200ED62B3 /* Supporting Files */,
+			);
+			path = "Watch-Thing-2.0 WatchKit App";
+			sourceTree = "<group>";
+		};
+		F61215DE1B75A7D200ED62B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F61215DF1B75A7D200ED62B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +232,12 @@
 				F61215961B75A5CC00ED62B3 /* Sources */,
 				F61215971B75A5CC00ED62B3 /* Frameworks */,
 				F61215981B75A5CC00ED62B3 /* Resources */,
+				F61215EE1B75A7D200ED62B3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F61215E61B75A7D200ED62B3 /* PBXTargetDependency */,
 			);
 			name = "Watch-Thing-2.0";
 			productName = "Watch-Thing-2.0";
@@ -157,6 +262,39 @@
 			productReference = F61215B31B75A5CD00ED62B3 /* Watch-Thing-2.0Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F61215C61B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61215ED1B75A7D200ED62B3 /* Build configuration list for PBXNativeTarget "Watch-Thing-2.0 WatchKit Extension" */;
+			buildPhases = (
+				F61215C31B75A7D200ED62B3 /* Sources */,
+				F61215C41B75A7D200ED62B3 /* Frameworks */,
+				F61215C51B75A7D200ED62B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F61215DC1B75A7D200ED62B3 /* PBXTargetDependency */,
+			);
+			name = "Watch-Thing-2.0 WatchKit Extension";
+			productName = "Watch-Thing-2.0 WatchKit Extension";
+			productReference = F61215C71B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		F61215D81B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61215EC1B75A7D200ED62B3 /* Build configuration list for PBXNativeTarget "Watch-Thing-2.0 WatchKit App" */;
+			buildPhases = (
+				F61215D71B75A7D200ED62B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch-Thing-2.0 WatchKit App";
+			productName = "Watch-Thing-2.0 WatchKit App";
+			productReference = F61215D91B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +310,12 @@
 					F61215B21B75A5CD00ED62B3 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = F61215991B75A5CC00ED62B3;
+					};
+					F61215C61B75A7D200ED62B3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F61215D81B75A7D200ED62B3 = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -190,6 +334,8 @@
 			targets = (
 				F61215991B75A5CC00ED62B3 /* Watch-Thing-2.0 */,
 				F61215B21B75A5CD00ED62B3 /* Watch-Thing-2.0Tests */,
+				F61215C61B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension */,
+				F61215D81B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +355,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61215C51B75A7D200ED62B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61215DA1B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App.app in Resources */,
+				F61215D61B75A7D200ED62B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61215D71B75A7D200ED62B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61215E21B75A7D200ED62B3 /* Interface.storyboard in Resources */,
+				F61215E41B75A7D200ED62B3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +397,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F61215C31B75A7D200ED62B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61215D11B75A7D200ED62B3 /* NotificationController.m in Sources */,
+				F61215CE1B75A7D200ED62B3 /* InterfaceController.m in Sources */,
+				F61215D41B75A7D200ED62B3 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +414,16 @@
 			isa = PBXTargetDependency;
 			target = F61215991B75A5CC00ED62B3 /* Watch-Thing-2.0 */;
 			targetProxy = F61215B41B75A5CD00ED62B3 /* PBXContainerItemProxy */;
+		};
+		F61215DC1B75A7D200ED62B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F61215D81B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App */;
+			targetProxy = F61215DB1B75A7D200ED62B3 /* PBXContainerItemProxy */;
+		};
+		F61215E61B75A7D200ED62B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F61215C61B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension */;
+			targetProxy = F61215E51B75A7D200ED62B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +442,14 @@
 				F61215AD1B75A5CD00ED62B3 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F61215E01B75A7D200ED62B3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F61215E11B75A7D200ED62B3 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -404,6 +596,62 @@
 			};
 			name = Release;
 		};
+		F61215E81B75A7D200ED62B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch-Thing-2.0 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F61215E91B75A7D200ED62B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Watch-Thing-2.0 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F61215EA1B75A7D200ED62B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Watch_Thing_2_0_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch-Thing-2.0 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		F61215EB1B75A7D200ED62B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Watch_Thing_2_0_WatchKit_Extension;
+				INFOPLIST_FILE = "Watch-Thing-2.0 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -433,6 +681,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F61215EC1B75A7D200ED62B3 /* Build configuration list for PBXNativeTarget "Watch-Thing-2.0 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61215EA1B75A7D200ED62B3 /* Debug */,
+				F61215EB1B75A7D200ED62B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F61215ED1B75A7D200ED62B3 /* Build configuration list for PBXNativeTarget "Watch-Thing-2.0 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61215E81B75A7D200ED62B3 /* Debug */,
+				F61215E91B75A7D200ED62B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
