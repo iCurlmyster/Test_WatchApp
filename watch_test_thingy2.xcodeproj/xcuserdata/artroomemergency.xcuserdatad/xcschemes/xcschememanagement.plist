@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - the_watch_part.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Notification - the_watch_part.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>the_watch_part.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>watch_test_thingy2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +28,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>E82FEEFA1B7585C50078E405</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E82FEF161B759F590078E405</key>
 		<dict>
 			<key>primary</key>
 			<true/>
