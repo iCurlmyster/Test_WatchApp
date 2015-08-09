@@ -149,7 +149,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F61215911B75A5CC00ED62B3 = {
+		E82FEF441B78125C0078E405 /* kitty_pictures */ = {
 			isa = PBXGroup;
 			children = (
 				F604D8F61B7715EE00830CB0 /* frame0@2x.pngs.png */,
@@ -167,6 +167,14 @@
 				F604D9021B7715EE00830CB0 /* frame12.png */,
 				F604D9031B7715EE00830CB0 /* frame13.png */,
 				F604D9041B7715EE00830CB0 /* frame14.png */,
+			);
+			name = kitty_pictures;
+			sourceTree = "<group>";
+		};
+		F61215911B75A5CC00ED62B3 = {
+			isa = PBXGroup;
+			children = (
+				E82FEF441B78125C0078E405 /* kitty_pictures */,
 				F612159C1B75A5CC00ED62B3 /* Watch-Thing-2.0 */,
 				F61215B61B75A5CD00ED62B3 /* Watch-Thing-2.0Tests */,
 				F61215C81B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension */,
