@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>53CB223F-6C48-40D4-9BC4-11CA217693DA</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Watch-Thing-2.0</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>9559E8A99AA56E03C4F67BB28748D4C2777309D9</key>
 		<string>https://github.com/iCurlmyster/Test_WatchApp</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Watch-Thing-2.0/Watch-Thing-2.0.xcodeproj/project.xcworkspace</string>
+	<string>Watch-Thing-2.0/Watch-Thing-2.0.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9559E8A99AA56E03C4F67BB28748D4C2777309D9</key>

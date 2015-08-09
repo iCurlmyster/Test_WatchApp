@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F604D8F31B770CFD00830CB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F604D8F21B770CFD00830CB0 /* Images.xcassets */; };
+		F604D9051B7715EE00830CB0 /* frame0@2x.pngs.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D8F61B7715EE00830CB0 /* frame0@2x.pngs.png */; };
+		F604D9061B7715EE00830CB0 /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D8F71B7715EE00830CB0 /* frame1.png */; };
+		F604D9071B7715EE00830CB0 /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D8F81B7715EE00830CB0 /* frame2.png */; };
+		F604D9081B7715EE00830CB0 /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D8F91B7715EE00830CB0 /* frame3.png */; };
+		F604D9091B7715EE00830CB0 /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D8FA1B7715EE00830CB0 /* frame4.png */; };
+		F604D90A1B7715EE00830CB0 /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D8FB1B7715EE00830CB0 /* frame5.png */; };
+		F604D90B1B7715EE00830CB0 /* frame6.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D8FC1B7715EE00830CB0 /* frame6.png */; };
+		F604D90C1B7715EE00830CB0 /* frame7.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D8FD1B7715EE00830CB0 /* frame7.png */; };
+		F604D90D1B7715EE00830CB0 /* frame8.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D8FE1B7715EE00830CB0 /* frame8.png */; };
+		F604D90E1B7715EE00830CB0 /* frame9.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D8FF1B7715EE00830CB0 /* frame9.png */; };
+		F604D90F1B7715EE00830CB0 /* frame10.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D9001B7715EE00830CB0 /* frame10.png */; };
+		F604D9101B7715EE00830CB0 /* frame11.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D9011B7715EE00830CB0 /* frame11.png */; };
+		F604D9111B7715EE00830CB0 /* frame12.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D9021B7715EE00830CB0 /* frame12.png */; };
+		F604D9121B7715EE00830CB0 /* frame13.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D9031B7715EE00830CB0 /* frame13.png */; };
+		F604D9131B7715EE00830CB0 /* frame14.png in Resources */ = {isa = PBXBuildFile; fileRef = F604D9041B7715EE00830CB0 /* frame14.png */; };
 		F61215A01B75A5CD00ED62B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F612159F1B75A5CD00ED62B3 /* main.m */; };
 		F61215A31B75A5CD00ED62B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F61215A21B75A5CD00ED62B3 /* AppDelegate.m */; };
 		F61215A61B75A5CD00ED62B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F61215A51B75A5CD00ED62B3 /* ViewController.m */; };
@@ -63,6 +79,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F604D8F21B770CFD00830CB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F604D8F61B7715EE00830CB0 /* frame0@2x.pngs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "frame0@2x.pngs.png"; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame0@2x.pngs.png"; sourceTree = "<group>"; };
+		F604D8F71B7715EE00830CB0 /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame1.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame1.png"; sourceTree = "<group>"; };
+		F604D8F81B7715EE00830CB0 /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame2.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame2.png"; sourceTree = "<group>"; };
+		F604D8F91B7715EE00830CB0 /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame3.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame3.png"; sourceTree = "<group>"; };
+		F604D8FA1B7715EE00830CB0 /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame4.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame4.png"; sourceTree = "<group>"; };
+		F604D8FB1B7715EE00830CB0 /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame5.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame5.png"; sourceTree = "<group>"; };
+		F604D8FC1B7715EE00830CB0 /* frame6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame6.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame6.png"; sourceTree = "<group>"; };
+		F604D8FD1B7715EE00830CB0 /* frame7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame7.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame7.png"; sourceTree = "<group>"; };
+		F604D8FE1B7715EE00830CB0 /* frame8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame8.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame8.png"; sourceTree = "<group>"; };
+		F604D8FF1B7715EE00830CB0 /* frame9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame9.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame9.png"; sourceTree = "<group>"; };
+		F604D9001B7715EE00830CB0 /* frame10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame10.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame10.png"; sourceTree = "<group>"; };
+		F604D9011B7715EE00830CB0 /* frame11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame11.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame11.png"; sourceTree = "<group>"; };
+		F604D9021B7715EE00830CB0 /* frame12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame12.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame12.png"; sourceTree = "<group>"; };
+		F604D9031B7715EE00830CB0 /* frame13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame13.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame13.png"; sourceTree = "<group>"; };
+		F604D9041B7715EE00830CB0 /* frame14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame14.png; path = "Watch-Thing-2.0 WatchKit App/Images.xcassets/kitten/frame14.png"; sourceTree = "<group>"; };
 		F612159A1B75A5CC00ED62B3 /* Watch-Thing-2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch-Thing-2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F612159E1B75A5CD00ED62B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F612159F1B75A5CD00ED62B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -120,6 +152,21 @@
 		F61215911B75A5CC00ED62B3 = {
 			isa = PBXGroup;
 			children = (
+				F604D8F61B7715EE00830CB0 /* frame0@2x.pngs.png */,
+				F604D8F71B7715EE00830CB0 /* frame1.png */,
+				F604D8F81B7715EE00830CB0 /* frame2.png */,
+				F604D8F91B7715EE00830CB0 /* frame3.png */,
+				F604D8FA1B7715EE00830CB0 /* frame4.png */,
+				F604D8FB1B7715EE00830CB0 /* frame5.png */,
+				F604D8FC1B7715EE00830CB0 /* frame6.png */,
+				F604D8FD1B7715EE00830CB0 /* frame7.png */,
+				F604D8FE1B7715EE00830CB0 /* frame8.png */,
+				F604D8FF1B7715EE00830CB0 /* frame9.png */,
+				F604D9001B7715EE00830CB0 /* frame10.png */,
+				F604D9011B7715EE00830CB0 /* frame11.png */,
+				F604D9021B7715EE00830CB0 /* frame12.png */,
+				F604D9031B7715EE00830CB0 /* frame13.png */,
+				F604D9041B7715EE00830CB0 /* frame14.png */,
 				F612159C1B75A5CC00ED62B3 /* Watch-Thing-2.0 */,
 				F61215B61B75A5CD00ED62B3 /* Watch-Thing-2.0Tests */,
 				F61215C81B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit Extension */,
@@ -190,6 +237,7 @@
 				F61215D21B75A7D200ED62B3 /* GlanceController.h */,
 				F61215D31B75A7D200ED62B3 /* GlanceController.m */,
 				F61215D51B75A7D200ED62B3 /* Images.xcassets */,
+				F604D8F21B770CFD00830CB0 /* Images.xcassets */,
 				F61215C91B75A7D200ED62B3 /* Supporting Files */,
 			);
 			path = "Watch-Thing-2.0 WatchKit Extension";
@@ -362,6 +410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F604D8F31B770CFD00830CB0 /* Images.xcassets in Resources */,
 				F61215DA1B75A7D200ED62B3 /* Watch-Thing-2.0 WatchKit App.app in Resources */,
 				F61215D61B75A7D200ED62B3 /* Images.xcassets in Resources */,
 			);
@@ -371,8 +420,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F604D9071B7715EE00830CB0 /* frame2.png in Resources */,
+				F604D9111B7715EE00830CB0 /* frame12.png in Resources */,
+				F604D90E1B7715EE00830CB0 /* frame9.png in Resources */,
+				F604D9081B7715EE00830CB0 /* frame3.png in Resources */,
+				F604D9091B7715EE00830CB0 /* frame4.png in Resources */,
 				F61215E21B75A7D200ED62B3 /* Interface.storyboard in Resources */,
+				F604D9131B7715EE00830CB0 /* frame14.png in Resources */,
+				F604D9061B7715EE00830CB0 /* frame1.png in Resources */,
+				F604D90C1B7715EE00830CB0 /* frame7.png in Resources */,
+				F604D90A1B7715EE00830CB0 /* frame5.png in Resources */,
+				F604D90F1B7715EE00830CB0 /* frame10.png in Resources */,
 				F61215E41B75A7D200ED62B3 /* Images.xcassets in Resources */,
+				F604D90B1B7715EE00830CB0 /* frame6.png in Resources */,
+				F604D9051B7715EE00830CB0 /* frame0@2x.pngs.png in Resources */,
+				F604D9121B7715EE00830CB0 /* frame13.png in Resources */,
+				F604D90D1B7715EE00830CB0 /* frame8.png in Resources */,
+				F604D9101B7715EE00830CB0 /* frame11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,6 +753,7 @@
 				F61215EB1B75A7D200ED62B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F61215ED1B75A7D200ED62B3 /* Build configuration list for PBXNativeTarget "Watch-Thing-2.0 WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -697,6 +762,7 @@
 				F61215E91B75A7D200ED62B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
